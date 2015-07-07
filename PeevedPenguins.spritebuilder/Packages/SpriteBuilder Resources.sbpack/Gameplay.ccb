@@ -56,7 +56,7 @@
 					<key>value</key>
 					<array>
 						<real>224.20240783691406</real>
-						<real>105.70572662353516</real>
+						<real>105.70573425292969</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,7 +202,7 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-5.6843418860808015e-14</real>
+						<real>0.0</real>
 						<real>14</real>
 					</array>
 				</dict>
@@ -1535,8 +1535,6 @@
 										<string>WaitingPenguin.ccb</string>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>

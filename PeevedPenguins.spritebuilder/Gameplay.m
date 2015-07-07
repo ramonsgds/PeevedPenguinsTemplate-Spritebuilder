@@ -9,7 +9,7 @@
 #import "Gameplay.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
 
-static const float MIN_SPEED = 5.f;
+
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
@@ -23,6 +23,8 @@ static const float MIN_SPEED = 5.f;
     CCPhysicsJoint *_penguinCatapultJoint;
     CCAction *_followPenguin;
 }
+
+    static const float MIN_SPEED = 5.f;
 
     // is called when CCB file has completed loading
     - (void)didLoadFromCCB {
@@ -178,7 +180,7 @@ static const float MIN_SPEED = 5.f;
         }
     
         int xMax = xMin + _currentPenguin.boundingBox.size.width;
-    
+     
         if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
             [self nextAttempt];
             return;
