@@ -39,6 +39,7 @@
 		F6D0EAA51B46221500DA246E /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0EAA41B46221500DA246E /* Penguin.m */; };
 		F6D0EAAE1B46222900DA246E /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0EAAD1B46222900DA246E /* Seal.m */; };
 		F6D0EAB11B499C4100DA246E /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0EAB01B499C4100DA246E /* Gameplay.m */; };
+		F6D0EABA1B4C342300DA246E /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D0EAB91B4C342300DA246E /* WaitingPenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		F6D0EAAD1B46222900DA246E /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
 		F6D0EAAF1B499C4100DA246E /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
 		F6D0EAB01B499C4100DA246E /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
+		F6D0EAB81B4C342300DA246E /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
+		F6D0EAB91B4C342300DA246E /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				F6D0EAAF1B499C4100DA246E /* Gameplay.h */,
 				F6D0EAB01B499C4100DA246E /* Gameplay.m */,
+				F6D0EAB81B4C342300DA246E /* WaitingPenguin.h */,
+				F6D0EAB91B4C342300DA246E /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 			files = (
 				F6D0EAAE1B46222900DA246E /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				F6D0EABA1B4C342300DA246E /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				F6D0EAA51B46221500DA246E /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
