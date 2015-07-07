@@ -107,7 +107,7 @@ static const float MIN_SPEED = 5.f;
     [self releaseCatapult];
     }
 
-    - (void)launchPenguin {
+  /*  - (void)launchPenguin {
         // loads the Penguin.ccb we have set up in Spritebuilder
         CCNode* penguin = [CCBReader load:@"Penguin"];
         // position the penguin at the bowl of the catapult
@@ -128,7 +128,7 @@ static const float MIN_SPEED = 5.f;
     
    
     }
-
+*/
 
     -  (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
     {
