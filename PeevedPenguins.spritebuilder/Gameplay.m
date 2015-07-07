@@ -187,13 +187,14 @@ static const float MIN_SPEED = 5.f;
         return;
     }
 }
-    - (void)nextAttempt {
-        _currentPenguin = nil;
-        [_contentNode stopAction:_followPenguin];
+
+- (void)nextAttempt {
+    _currentPenguin = nil;
+    [_contentNode stopAction:_followPenguin];
     
-        CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.0f position:ccp(0, 0)];
-        [_contentNode runAction:actionMoveTo];
-    }
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
+    [_contentNode runAction:actionMoveTo];
+}
 
 
 @end
