@@ -1001,8 +1001,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>172</real>
-							<real>141</real>
+							<real>343.5</real>
+							<real>156.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1109,8 +1109,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>199</real>
-							<real>133.5</real>
+							<real>430.5</real>
+							<real>12.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1138,6 +1138,8 @@
 						<string>Seal.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1595,8 +1597,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>172</real>
-							<real>188</real>
+							<real>261.00003051757812</real>
+							<real>69.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1620,8 +1622,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.93218833208084106</real>
+							<real>-1.94129478931427</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -3235,8 +3237,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
